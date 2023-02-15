@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.button {
+
+
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #FF900E;
+    border: 2px solid #FF900E;
+    border-radius: 4px;
+
+}
+
+/* Navigation Bar */
+.first-container {
+    background-color: #FFF4E7;
+    padding: 20px 200px;
+}
+
+
+.nav-heading {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav-key {
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+nav {
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+nav ul {
+
+    display: flex;
+    gap: 10px;
+    margin: 0 10px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/*Brand New Group of Architects Header section*/
+
+.banner-headline {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.banner-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+
+    padding-bottom: 20px
+}
+
+.banner-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.main-banner {
+    width: 100%;
+}
+
+/* End Banner section  */
+
+/* Styles of  Image and quick list section   */
+.second-container {
+    margin: 100px;
+
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+
+}
+
+.team-image {
+    margin-top: 20px;
+    width: 280px !important;
+    /* justify-content: center; */
+}
+
+.team-content {
+    margin: 20px 80px;
+}
+
+.content-heading {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.color-gray {
+    color: gray;
+    font-weight: 400;
+}
+
+.color-yellow {
+    color: #FF900E;
+    font-weight: 500;
+}
+
+.content-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    color: #727272;
+    padding: 20px 0;
+    
+}
+
+/* Styles of  Image and quick list section End  */
+
+
+/* ================================================================================================================================= */
+
+/* ------------------
+style of Features you will love & enjoy Container
+------------------ */
+.third-container {
+    margin: 80px;
+
+}
+
+.love-and-enjoy-card-Container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 56px;
+}
+
+.third-container-headline {
+    border-left: 4px solid #FF900E;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.card {
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+
+}
+
+.card-heading {
+    margin: 0 10px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+
+}
+
+.card-paragraph {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #727272;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+/* right side architects image */
+.architects-image {
+    width: 75%;
+
+
+}
+
+.architects-button {
+    margin-top: -80px;
+    margin-left: -40px;
+    border-radius: 8px;
+
+}
+
+/* ------------------
+style of Features you will love & enjoy Container
+------------------ */
+
+/* ================================================================================================================================= */
+
+
+/* ---------------
+------------------
+styles of Some Facts container
+---------------------
+---------------------- */
+.fact-container {
+    margin: 80px;
+}
+
+
+.fact-headline {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.fact-paragraph {
+    color: #727272;
+}
+
+.fact-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box {
+    padding: 20px;
+    margin-top: 30px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+
+}
+
+.box-title {
+    color: gray;
+}
+
+.box:hover {
+    border: 1px solid gray;
+    transition: 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+/* ---------------
+------------------
+styles of Some Facts container End
+---------------------
+---------------------- */
+
+/* ================================================================================================================================= */
+
+/* --------------
+styles of sponsors container
+--------------- */
+
+.sponsors {
+    margin: 80px;
+}
+
+.sponsors-heading {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sponsors-paragraph {
+    text-align: center;
+    color: gray;
+}
+
+.Sponsors-image {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* ---------------
+sponsors container styles end------------*/
+
+/* ================================================================================================================================= */
+
+/* --------------
+footer style --------------*/
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    background-color: #FFF4E7;
+    text-align: center;
+}
+
+/* --------------
+footer style end --------------*/
+
+
+/* ================================================================================================================================= */
+
+
+/* responsive */
+
+
+/*Mobile phone */
+@media screen and (max-width: 576px) {
+
+    .container {
+        padding: 20px 20px;
+    }
+
+    .first-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        padding: 0px;
+    }
+
+    nav {
+        grid-template-columns: auto;
+    }
+
+    nav ul li {
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 10px;
+        list-style: none;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .banner-headline {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+
+    .banner-paragraph {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        margin: 0 50px;
+
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .main-banner {
+        width: 80%;
+        margin: 0 50px;
+    }
+
+    .second-container { 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .main-container {
+        display: grid;
+        align-items: center;
+        grid-template-columns: auto;
+    }
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content-heading {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .third-container {
+        justify-content: center;
+    }
+
+    .love-and-enjoy-card-Container {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+    }
+    .third-container-headline {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .architects-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .fact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fact-headline {
+        font-size: 30px;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fact-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Sponsors-image {
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       font-size: 10px;
+    }
+
+}
+
+
+/*Responsive for Tablet*/
+@media (min-width: 576.1px) and (max-width: 820px) {
+
+    .container {
+        padding: 20px 40px;
+        
+    }
+
+    .banner-headline {
+        font-size: 50px;
+        font-weight: 700;
+    } 
+
+/* banner  */
+.image-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+
+
+    .love-and-enjoy-card-Container {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 100px;
+        align-items: center;
+    }
+
+}
